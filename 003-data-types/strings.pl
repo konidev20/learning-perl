@@ -36,8 +36,8 @@ print(qq^The substring "$sub" found at position "$r" in string "$s"^);
 
 # extract substring
 my $s = "Green is my favorite color";
-my $color  = substr($s, 0, 5);      # Green
-my $end    = substr($s, -5);        # color
+my $color = substr($s, 0, 5); # Green
+my $end = substr($s, -5);  # color
 
 print($end,":",$color,"\n");
 
